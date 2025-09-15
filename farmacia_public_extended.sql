@@ -130,17 +130,16 @@ INSERT INTO fornecedor (nome, cnpj) VALUES
 
 -- 10 Clientes
 INSERT INTO cliente (nome, cpf) VALUES
-('João Silva', '111.111.111-11'),
-('Maria Oliveira', '222.222.222-22'),
-('Carlos Souza', '333.333.333-33'),
-('Ana Costa', '444.444.444-44'),
-('Pedro Santos', '555.555.555-55'),
-('Fernanda Lima', '666.666.666-66'),
-('Lucas Almeida', '777.777.777-77'),
-('Juliana Rocha', '888.888.888-88'),
-('Ricardo Mendes', '999.999.999-99'),
-('Patrícia Nunes', '000.000.000-00');
-
+1	"Otavio Bleich Ferreira"	"138.079.139-12"
+2	"Marli Ivoni Bleich"	"015.189.569-12"
+3	"Carlos de Oliveira"	"123.098.182-12"
+4	"Ana Costa"	"098.876.765-90"
+5	"Pedro Santos"	"987.674.656-34"
+6	"Fernanda Lima"	"368.728.377-27"
+7	"Lucas Almeida"	"221.872.361-26"
+8	"Juliana Rocha"	"029.742.037-42"
+9	"Ricardo Mendes"	"928.364.926-28"
+10	"Patrícia Nunes"	"982.093.460-23"
 -- Estoque inicial (exemplo com alguns produtos)
 INSERT INTO estoque_filial (filial_id, produto_id, quantidade, preco) VALUES
 (1, 1, 100, 5.50),
